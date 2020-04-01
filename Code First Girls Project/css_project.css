@@ -1,0 +1,239 @@
+/*Style for the home page: alert; navbar; headers; image/link gallery; footer. */
+
+.alert {
+    padding: 20px;
+    background-color:thistle;
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  .closebutton {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  
+  .closebutton:hover {
+    color: black;
+  }
+
+.navbar {
+    list-style-type: none;
+    margin: auto;
+    padding: 1px 1px 1px 0px;
+    position: static;
+    display: block;
+    border: 1px;
+    background-color: tomato;
+    text-align: right;
+    display: -webkit-box;
+}
+
+ .about {
+    color: black;
+    padding: 2px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+ .contact {
+    color: black;
+    padding: 2px;
+    list-style-type: none;
+    position: left;
+    display: inline-block;
+}
+
+ .about:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+ .contact:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+ .contactHeader {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    position: relative;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+}
+
+ .home {
+    color: black;
+    padding: 2px;
+    list-style-type: none;
+    position: left;
+    display: inline-block;
+}
+
+ .home:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+/* This is the submit form on the 'Contact' Page! */
+
+.foodForm {
+    background-color: tomato;
+    float: left;
+    padding: 20px;
+}
+
+ .submitButton:hover {
+    background-color: thistle;
+    cursor: pointer;
+}
+
+/* Consistent styling for page content*/
+
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("https://media.timeout.com/images/103437500/image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-color: whitesmoke;
+}
+
+ .header {
+    font-size: larger;
+    background-color: whitesmoke;
+    opacity: 0.9;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+
+/* Home Page */
+
+ .welcome {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+ }
+
+ .featured {
+    background-color: tomato;
+    padding: 5px;
+    margin: auto;
+ }
+
+/* Img gallery on Home Page */
+
+ .galleryContainer {
+    margin: auto;
+    min-height: auto;
+ }
+
+  .galleryContainer:hover {
+    cursor: pointer;
+  }
+
+  .gallery {
+    margin: 5px;
+    border: 3px solid tomato;
+    float: left;
+    width: 317px;
+    max-width: 100%;
+  }
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    background-color: tomato;
+    max-width: 100%;
+  }
+
+  /* Mobile responsiveness */
+
+  @media screen and (max-width: 600px) {
+    .gallery, .gallery img {
+      width: 100%;
+      max-width: fit-content; 
+    }
+  }
+
+.footer {
+    background-color: whitesmoke;
+    padding: 5px;
+    margin-top: 10px;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+}
+
+  @media screen and (max-width: 650px) {
+      .footer {
+          position: static;
+      }
+  }
+
+/* Style for the BargeHouse etc. gallery linked pages */
+
+.brunchHeader {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    text-align: center;
+    padding: 20px;
+}
+
+ .brunchHeaderTwo {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    text-align: center;
+    padding: 3px;
+}
+
+   .pagepic {
+      opacity: 100%;
+      max-width: fit-content;
+  }
+
+ .brunch {
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    text-justify: auto;
+    padding: 20px;
+}
+
+ .websiteLink {
+     background-color: thistle;
+     text-align: center;
+     margin: auto;
+     padding: 5px;
+
+ }
+
+ .websiteLink:hover {
+     text-decoration: underline;
+     cursor: pointer;
+     scale: 1.1;
+ }
